@@ -1,0 +1,41 @@
+.card {
+    padding: 20px;
+    background-color: rgb(173, 52, 52);
+    width: 180px;
+    min-height: 200px;
+    border-radius: 15px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    
+    .id {
+        font-family: 'Pacifico', cursive;
+    }
+
+    .id, .title {
+        margin: 0;
+        color: #fff;
+    }
+
+    .title {
+        margin-top: 10px;
+    }
+
+    .delete-btn {
+        border: none;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: #5EC55E;
+        border-radius: 5px;
+        width: 80%;
+        color: #fff;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.2rem;
+    }
+
+    &.online {
+        background-color: rgb(72, 131, 49);
+    }
+}

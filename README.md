@@ -1,27 +1,4 @@
-# Project11
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Создать приложение на базе одного компонента. Приложение должно генерировать и отображать 10 датчиков. У каждого датчика есть id(порядковый номер), имя – любой, статус (онлайн или оффлайн). При генерации 10 датчиков статус должен быть выставлен случайным образом.
+Нужно отобразить датчики (например, при помощи bootstrap card). На большом экране должно быть 4 датчика в строке, на среднем 2, на маленьком 1. В заголовке карты датчика должен быть написан id, в теле название. Если датчик онлайн, то карта должна быть зеленого цвета, если оффлайн, то красного.
+Для каждого датчика должна быть кнопка удалить, которая удаляет его.
+Под списком датчиков должна находится форма для добавления нового датчика (который становится последним в списке)

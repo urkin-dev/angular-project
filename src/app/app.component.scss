@@ -1,0 +1,46 @@
+@import "../variables";
+
+.createForm {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 40px auto;
+    
+    &__item, button {
+        margin-top: 10px;
+    }
+
+    label {
+        margin-right: 10px;
+    }
+
+    button {
+        width: 80%;
+        border: none;
+        color: #fff;
+        background-color: rgb(167, 54, 54);
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: $media-breakpoint-md) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: $media-breakpoint-xs) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
